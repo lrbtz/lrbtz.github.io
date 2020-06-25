@@ -40,20 +40,20 @@
           <h2 class="title">
             Tecnologies
           </h2>
-            <img src="" alt="Javascript icon">
-            <img src="" alt="Vue icon">
-            <img src="" alt="CSS icon">
-            <img src="" alt="HTML icon">
-            <img src="" alt="Figma icon">
+            <img src="../images/JS-icon.svg" alt="Javascript icon">
+            <img src="../images/Vue-icon.svg" alt="Vue icon">
+            <img src="../images/CSS-icon.svg" alt="CSS icon">
+            <img src="../images/HTML-icon.svg" alt="HTML icon">
+            <img src="../images/Figma-icon.svg" alt="Figma icon">
         </div>
         <div>
           <h2 class="title">
             Let’s be internet BFFs
           </h2>
-          <a href="https://github.com/lrbtz" target="_blank"></a>
-          <a href="https://www.linkedin.com/in/lara-beatriz-de-oliveira/" target="_blank"></a>
-          <a href="https://medium.com/@larabeatrizdeoliveira" target="_blank"></a>
-          <a href="mailto:lara.bia@outlook.com.br" target="_blank"></a>
+          <a href="https://github.com/lrbtz" target="_blank"><img src="../images/Github-icon.svg" alt="lcon to access my github page"></a>
+          <a href="https://www.linkedin.com/in/lara-beatriz-de-oliveira/" target="_blank"><img src="../images/Linkedin-icon.svg" alt="lcon to access my linkedin page"></a>
+          <a href="https://medium.com/@larabeatrizdeoliveira" target="_blank"><img src="../images/Medium-icon.svg" alt="lcon to access my medium page"></a>
+          <a href="mailto:lara.bia@outlook.com.br" target="_blank"><img src="../images/Email-icon.svg" alt="lcon to send me an email"></a>
         </div>
       </header>
     </article>
