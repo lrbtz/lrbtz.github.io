@@ -7,6 +7,19 @@
             <h1 class="welcome-text">Welcome</h1>
             <p class="welcome-text animated-text animate__animated animate__bounceInDown">.</p>
           </div>
+          <div class="scroll-button" id="scroll" v-on:click="scrollDown">
+              <span>
+                <section class="centered-container"><a class="link--arrowed" href="#">
+                  <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 32 32" transform="rotate(90)">
+                    <g fill="none" stroke="#4320E1" stroke-width="1.3" stroke-linejoin="round" stroke-miterlimit="10">
+                      <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                      <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                    </g>
+                  </svg>
+                  </a>
+                </section>
+              </span>
+            </div>
         </div>
       </section>
     </header>
@@ -31,7 +44,7 @@
           </div>
           <div class="container">
             <h2 class="title">Projects</h2>
-            <h3 class="subtitle click-link">
+            <h3 class="subtitle">
               <a href="https://cricketgate.web.app/login" target="_blank"><span>CricketGate</span></a>
             </h3>
             <h3 class="subtitle click-link">
@@ -85,6 +98,13 @@
 
 <script>
 export default {
-  name: "Portifolio"
+  methods: {
+    scrollDown: function() {
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth',
+      });
+    },
+  },
 };
 </script>

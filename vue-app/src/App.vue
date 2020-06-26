@@ -49,6 +49,35 @@ body {
   margin-bottom: 150px;
 }
 
+#scroll span {
+  top: 85%;
+  left: calc(50% - 12px);
+  background: #FF9800;
+  border: 0.9px solid #4320E1;
+  border-radius: 18.5px;
+  position: absolute;
+  width: 37px;
+  height: 73px;
+}
+
+.arrow-icon {
+  position: absolute;
+  top: 2.3em;
+  left: 9%;
+}
+.link--arrowed .arrow-icon--circle {
+  -webkit-transition: stroke-dashoffset .3s ease;
+  transition: stroke-dashoffset .3s ease;
+  stroke-dasharray: 95;
+  stroke-dashoffset: 95;
+}
+.link--arrowed:hover .arrow-icon {
+  transform: rotate(90deg);
+}
+.link--arrowed:hover .arrow-icon--circle {
+  stroke-dashoffset: 0;
+}
+
 .hello-container {
   position: relative;
 }
