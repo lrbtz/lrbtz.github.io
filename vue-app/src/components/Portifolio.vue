@@ -1,10 +1,11 @@
 <template>
   <div class="Portifolio">
     <header>
-      <section class="hero is-fullheight">
+      <section class="hero is-fullheight top-screen">
         <div class="hero-body">
           <div class="container has-text-centered">
-            <h1 class="title" id="welcome-text">Welcome</h1>
+            <h1 class="welcome-text">Welcome</h1>
+            <p class="welcome-text animated-text animate__animated animate__bounceInDown">.</p>
           </div>
         </div>
       </section>
@@ -30,14 +31,14 @@
           </div>
           <div class="container">
             <h2 class="title">Projects</h2>
-            <h3 class="subtitle">
-              <a href="https://cricketgate.web.app/login" target="_blank">CricketGate</a>
+            <h3 class="subtitle click-link">
+              <a href="https://cricketgate.web.app/login" target="_blank"><span>CricketGate</span></a>
             </h3>
-            <h3 class="subtitle">
+            <h3 class="subtitle click-link">
               <a
                 href="https://medium.com/@larabeatrizdeoliveira/estudo-de-caso-ui-ux-trazer-uma-nova-experi%C3%AAncia-para-os-usu%C3%A1rios-da-the-body-shop-por-meio-do-b9d379e47650"
                 target="_blank"
-              >Study case</a>
+              ><span>Study case</span></a>
             </h3>
           </div>
           <div class="container">
