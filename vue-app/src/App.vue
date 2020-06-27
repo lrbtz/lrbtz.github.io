@@ -32,7 +32,6 @@ body {
   margin: 0 0 0 0 !important;
 }
 
-//alt shift A
 .welcome-text {
   font-family: 'Titan One', cursive;
   font-style: normal;

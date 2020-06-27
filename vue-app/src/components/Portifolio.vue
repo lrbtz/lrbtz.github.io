@@ -24,10 +24,10 @@
       </section>
     </header>
     <article class="has-text-centered second-screen">
-      <scroll-container>
-        <scroll-page id="page-1"></scroll-page>
-      </scroll-container>
-      <div class="columns is-inline-block-mobile is-centered">
+      <div class="scroll-container">
+        <div id="page-1"></div>
+      </div>
+      <div class="columns is-inline-mobile is-centered">
         <div class="column is-paddingless">
           <div class="container container-padded">
             <header>
