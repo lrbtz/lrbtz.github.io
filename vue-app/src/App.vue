@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Portifolio />
+    <portifolio />
   </div>
 </template>
 
@@ -17,18 +17,21 @@ export default {
 
 <style lang="scss">
 @import '~bulma';
-
-body {
-  background-color: #FEAEA7;
-  color: #ffffff;
-  overflow: hidden;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Titan+One&display=swap');
 
-.container {
-  padding-bottom: 0.75em;
+::-webkit-scrollbar {
+  display: none;
 }
+
+body {
+  background-color: #FFBBB5;
+  color: #ffffff;
+}
+
+.comumns {
+  margin: 0 0 0 0 !important;
+}
+
 //alt shift A
 .welcome-text {
   font-family: 'Titan One', cursive;
@@ -53,7 +56,7 @@ body {
   top: 85%;
   left: calc(50% - 12px);
   background: #FF9800;
-  border: 0.9px solid #4320E1;
+  border: 0.9px solid #FF9800;
   border-radius: 18.5px;
   position: absolute;
   width: 37px;
@@ -85,6 +88,11 @@ body {
 .hello-title {
   position: relative;
   z-index: 2;
+}
+
+scroll-container {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 #circle-image {
@@ -149,8 +157,9 @@ body {
 }
 
 .footer {
+  height: 65px;
   padding: 0.60em 0 0.60em 0;
-  background-color: #FEAEA7;
+  background-color: #FFBBB5;
 }
 
 //Source: https://codepen.io/geoffgraham/pen/bxEVEN
@@ -168,10 +177,19 @@ span {
 }
 
 span:hover {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-image:
+    url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
   background-position: 0 100%;
   background-size: auto 4px;
   background-repeat: repeat-x;
   text-decoration: none;
+}
+
+.second-screen {
+  min-height: calc(100vh - 150px);
+}
+
+.container-padded {
+  margin-bottom: 50px;
 }
 </style>
